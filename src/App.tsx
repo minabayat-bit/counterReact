@@ -5,11 +5,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className=" h-full flex flex-col gap-6 justify-center items-center ">
+
+    <section className=" h-full flex flex-col gap-6 justify-center items-center ">
       <>
         <h2 className="text-gray-800 font-bold text-[100px]  ">Counter</h2>
       </>
-      <>
+      
         <p
           className={
             count > 0
@@ -35,9 +36,13 @@ function App() {
         className="text-2xl  border-2 border-black px-3 py-1 rounded-md tracking-[7px] hover:text-white hover:bg-gray-800"
        >INCREASE</button>
      </div>
-      </>
-    </div>
-  );
+      <section/>
+      );
+
+    
+    
+  
 }
+
 
 export default App;
