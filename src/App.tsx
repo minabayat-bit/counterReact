@@ -36,7 +36,7 @@ function App() {
         className="text-2xl  border-2 border-black px-3 py-1 rounded-md tracking-[7px] hover:text-white hover:bg-gray-800"
        >INCREASE</button>
      </div>
-      <section/>
+      </section>
       );
 
     
